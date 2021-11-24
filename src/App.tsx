@@ -6,15 +6,15 @@ import Header from './shared/Header/Header';
 
 
 
+
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/month-statistics" component={MonthStatistics} />
       </Switch>
-
     </div>
 
   );
