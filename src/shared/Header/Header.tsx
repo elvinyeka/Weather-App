@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Select from 'react-select';
 
 import GlobalSvgSelector from '../../assets/icons/global/GlobalSvgSelector';
